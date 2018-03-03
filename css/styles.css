@@ -1,0 +1,61 @@
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 153px; }
+  body main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    body main .main_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 64px; }
+      body main .main_title div {
+        font-family: "Segoe UI";
+        color: #184a6f;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center; }
+        body main .main_title div:first-child {
+          letter-spacing: 2px;
+          font-size: 50px;
+          margin-bottom: -20px;
+          word-spacing: 1px; }
+        body main .main_title div:last-child {
+          font-size: 60px;
+          letter-spacing: 2.4px;
+          word-spacing: -4.4px; }
+        body main .main_title div .main_title--price {
+          color: red;
+          font-size: 80px;
+          letter-spacing: 4px;
+          word-spacing: -4px; }
+    body main .section_options-catalog {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; }
+      body main .section_options-catalog div {
+        height: 260px;
+        width: 25%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: center center, center center; }
+      body main .section_options-catalog .section_options-catalog--clockwork {
+        background-image: url("../images/png/border.png"), url("../images/png/car.png"); }
+      body main .section_options-catalog .section_options-catalog--sunny {
+        background-image: url("../images/png/border.png"), url("../images/png/sunny-car.png"); }
+      body main .section_options-catalog .section_options-catalog--golden-sun {
+        background-image: url("../images/png/border.png"), url("../images/png/glasses-on-sand.png"); }
+      body main .section_options-catalog .section_options-catalog--resourt {
+        background-image: url("../images/png/border.png"), url("../images/png/beach.png"); }

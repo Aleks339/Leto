@@ -1,0 +1,83 @@
+//body
+$bodyBgImage:url('../images/bg.jpg');
+
+//main
+$mainTitleFontFamily:"Segoe UI";
+$mainTitleTextColor:rgb(24, 74, 111);
+$mainTitlePriceTextColor:red;
+
+body{
+    background-image: $bodyBgImage;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:153px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .main_title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 64px;
+            div{                          
+                font-family: $mainTitleFontFamily;
+                color: $mainTitleTextColor;
+                font-weight: bold;
+                text-transform: uppercase;                
+                text-align: center;
+                &:first-child{
+                        letter-spacing: 2px;
+                        font-size: 50px;
+                        margin-bottom: -20px;
+                        word-spacing: 1px;
+                }
+                &:last-child{
+                    font-size: 60px;
+                    letter-spacing: 2.4px;
+                    word-spacing: -4.4px;
+                }
+                .main_title--price{
+                    color:$mainTitlePriceTextColor;
+                    font-size: 80px;
+                    letter-spacing: 4px;
+                    word-spacing: -4px;
+                }
+            }            
+        }
+        .section_options-catalog{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            div{
+                height: 260px;
+                width: 25%;
+                background-repeat: no-repeat, no-repeat;
+                background-position: center center, center center;
+            }
+            .section_options-catalog--clockwork{
+                background-image: url('../images/png/border.png'), url('../images/png/car.png');
+            }
+            .section_options-catalog--sunny{
+                background-image: url('../images/png/border.png'), url('../images/png/sunny-car.png');
+            }
+            .section_options-catalog--golden-sun{
+                background-image: url('../images/png/border.png'), url('../images/png/glasses-on-sand.png');
+            }
+            .section_options-catalog--resourt{
+                background-image: url('../images/png/border.png'), url('../images/png/beach.png');
+            }
+        }
+    }
+}
