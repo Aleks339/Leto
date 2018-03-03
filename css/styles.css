@@ -50,7 +50,8 @@ body {
         height: 260px;
         width: 25%;
         background-repeat: no-repeat, no-repeat;
-        background-position: center center, center center; }
+        background-position: center center, center center;
+        margin: 25px; }
       body main .section_options-catalog .section_options-catalog--clockwork {
         background-image: url("../images/png/border.png"), url("../images/png/car.png"); }
       body main .section_options-catalog .section_options-catalog--sunny {
