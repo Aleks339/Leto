@@ -47,16 +47,22 @@ body {
       align-items: center;
       flex-wrap: wrap; }
       body main .section_options-catalog div {
-        height: 260px;
-        width: 25%;
-        background-repeat: no-repeat, no-repeat;
-        background-position: center center, center center;
-        margin: 25px; }
-      body main .section_options-catalog .section_options-catalog--clockwork {
-        background-image: url("../images/png/border.png"), url("../images/png/car.png"); }
-      body main .section_options-catalog .section_options-catalog--sunny {
-        background-image: url("../images/png/border.png"), url("../images/png/sunny-car.png"); }
-      body main .section_options-catalog .section_options-catalog--golden-sun {
-        background-image: url("../images/png/border.png"), url("../images/png/glasses-on-sand.png"); }
-      body main .section_options-catalog .section_options-catalog--resourt {
-        background-image: url("../images/png/border.png"), url("../images/png/beach.png"); }
+        height: 350px;
+        width: 300px; }
+        body main .section_options-catalog div .section_options-catalog--img-main {
+          border-radius: 50%;
+          border: 10px solid white; }
+        body main .section_options-catalog div .section_options-catalog--img-aside {
+          position: relative;
+          top: -158px;
+          left: 172px; }
+        body main .section_options-catalog div .section_options-catalog--title {
+          color: white;
+          font-family: "Segoe UI";
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: 38px;
+          text-align: center;
+          position: relative;
+          top: -156px;
+          word-wrap: normal; }

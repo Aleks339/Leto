@@ -6,6 +6,9 @@ $mainTitleFontFamily:"Segoe UI";
 $mainTitleTextColor:rgb(24, 74, 111);
 $mainTitlePriceTextColor:red;
 
+//section_options
+$sectionOptionsTitleTextColor:white;
+
 body{
     background-image: $bodyBgImage;
     background-repeat: no-repeat;
@@ -61,8 +64,28 @@ body{
             align-items: center;
             flex-wrap: wrap;
             div{
-                height: 260px;
-                width: 25%;
+                height:350px;
+                width:300px;
+                .section_options-catalog--img-main{
+                    border-radius: 50%;
+                    border:10px solid white;
+                }
+                .section_options-catalog--img-aside{
+                    position: relative;
+                    top: -158px;
+                    left: 172px;
+                }
+                .section_options-catalog--title{
+                    color: $sectionOptionsTitleTextColor;
+                    font-family: $mainTitleFontFamily;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-size: 38px;
+                    text-align: center;
+                    position: relative;
+                    top: -156px;
+                    word-wrap: normal;
+                }
             }
         }
     }
