@@ -191,7 +191,7 @@ body {
     position: relative;
     top: -124px;
     letter-spacing: 0.3px;
-    word-spacing: 0.4px; }
+    word-spacing: 11px; }
 
 @media (max-width: 1000px) {
   body {
