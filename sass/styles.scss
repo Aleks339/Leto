@@ -216,9 +216,6 @@ body{
                        top: -133px;
                        left: -10px;
                     }
-                    .section_options-catalog--img-aside{
-
-                    }
                     .section_options-catalog--title{
                         position: relative;
                         top: -270px;
@@ -239,6 +236,9 @@ body{
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                position: relative;
+                top: -142px;
+                left: 2px;
             }
             .footer_invitation--title{
               font-size: 60px;
@@ -247,6 +247,10 @@ body{
               color: $mainTitleTextColor;
               text-transform: uppercase;
               text-align: center;
+              position: relative;
+              top: -124px;
+              letter-spacing: 0.3px;
+              word-spacing: 0.4px;
             }
         }
     }
