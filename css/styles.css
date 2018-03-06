@@ -40,29 +40,157 @@ body {
           font-size: 80px;
           letter-spacing: 4px;
           word-spacing: -4px; }
-    body main .section_options-catalog {
+    body main .section_button--tree {
+      background-image: url(../images/png/tree.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 360px;
       display: flex;
-      flex-direction: row;
       justify-content: center;
-      align-items: center;
-      flex-wrap: wrap; }
-      body main .section_options-catalog div {
-        height: 350px;
-        width: 300px; }
-        body main .section_options-catalog div .section_options-catalog--img-main {
-          border-radius: 50%;
-          border: 10px solid white; }
-        body main .section_options-catalog div .section_options-catalog--img-aside {
-          position: relative;
-          top: -158px;
-          left: 172px; }
-        body main .section_options-catalog div .section_options-catalog--title {
-          color: white;
+      align-items: center; }
+      body main .section_button--tree .section_button--border {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 1.6px 10px #94380b;
+        border-radius: 2px;
+        background-color: #ffa358;
+        height: 85px;
+        margin-top: 47px;
+        letter-spacing: 1.2px;
+        margin-left: 49px;
+        height: 93px;
+        margin-top: 48px; }
+        body main .section_button--tree .section_button--border .section_button--title {
+          font-size: 78px;
           font-family: "Segoe UI";
-          font-weight: bold;
+          color: #bd0707;
           text-transform: uppercase;
-          font-size: 38px;
-          text-align: center;
+          font-weight: bold;
+          padding-right: 41px;
+          padding-left: 41px;
+          text-shadow: 0px 0px 0px rgba(3, 20, 21, 0.95);
+          padding-bottom: 10px; }
+    body main .section_options-catalog {
+      height: 526px; }
+      body main .section_options-catalog .section_options-catalog--title h1 {
+        font-size: 64px;
+        font-family: "Segoe UI";
+        color: white;
+        position: relative;
+        top: -130px;
+        left: -10px;
+        text-transform: uppercase;
+        line-height: 2.015;
+        text-align: center;
+        text-shadow: -4.728px 3.694px 3.9px rgba(3, 11, 22, 0.8); }
+      body main .section_options-catalog .section_options-catalog--wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap; }
+        body main .section_options-catalog .section_options-catalog--wrapper div {
+          height: 258px;
+          width: 300px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
           position: relative;
-          top: -156px;
-          word-wrap: normal; }
+          top: 23px;
+          left: 15px; }
+          body main .section_options-catalog .section_options-catalog--wrapper div .section_options-catalog--img-main {
+            border-radius: 50%;
+            border: 10px solid white;
+            position: relative;
+            top: -21px;
+            width: 238px;
+            height: 238px; }
+          body main .section_options-catalog .section_options-catalog--wrapper div .section_options-catalog--img-aside {
+            position: relative;
+            top: -306px;
+            left: 75px; }
+          body main .section_options-catalog .section_options-catalog--wrapper div .section_options-catalog--title {
+            color: white;
+            font-family: "Segoe UI";
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 38px;
+            text-align: center;
+            white-space: pre; }
+          body main .section_options-catalog .section_options-catalog--wrapper div .section_options-catalog--date {
+            font-size: 24px;
+            font-family: "Segoe UI";
+            color: #184a6f;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            word-spacing: -5px;
+            letter-spacing: 0.5px;
+            position: relative;
+            left: 20px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--clockwork .section_options-catalog--img-main {
+          position: relative;
+          top: -138px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--clockwork .section_options-catalog--title {
+          position: relative;
+          top: -272px;
+          left: -8px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--clockwork .section_options-catalog--date {
+          position: relative;
+          top: -234px;
+          left: -6px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--sunny .section_options-catalog--img-main {
+          position: relative;
+          top: -128px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--sunny .section_options-catalog--title {
+          position: relative;
+          top: -283px;
+          left: -8px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--sunny .section_options-catalog--date {
+          position: relative;
+          top: -246px;
+          left: -10px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--golden-sun .section_options-catalog--img-main {
+          position: relative;
+          top: -148px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--golden-sun .section_options-catalog--title {
+          position: relative;
+          top: -260px;
+          left: -8px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--golden-sun .section_options-catalog--date {
+          position: relative;
+          top: -224px;
+          left: -6px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--resourt .section_options-catalog--img-main {
+          top: -133px;
+          left: -10px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--resourt .section_options-catalog--title {
+          position: relative;
+          top: -270px;
+          left: -13px; }
+        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--resourt .section_options-catalog--date {
+          position: relative;
+          top: -234px;
+          left: -10px; }
+  body footer .footer_invitation .footer_invitation--img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  body footer .footer_invitation .footer_invitation--title {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    color: #184a6f;
+    text-transform: uppercase;
+    text-align: center; }
+
+@media (max-width: 1000px) {
+  body {
+    background-image: url(../images/bg-mobile.jpg); }
+    body main {
+      transform: scale(0.5); }
+      body main .section_options-catalog {
+        display: flex;
+        flex-wrap: wrap; } }
