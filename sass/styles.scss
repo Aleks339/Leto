@@ -66,10 +66,13 @@ body{
             background-image: url(../images/png/tree.png);
             background-repeat: no-repeat;
             background-position: center center;
-            height: 360px;
+            height: 227px;
             display: flex;
             justify-content: center;
             align-items: center;
+            position: relative;
+            top: 64px;
+            left: -16px;
             .section_button--border{
                 display: flex;
                 justify-content: center;
@@ -77,12 +80,10 @@ body{
                 box-shadow: 0 0 1.6px 10px rgb(148, 56, 11);
                 border-radius: 2px;
                 background-color:$sectionButtonBorderBgColor;
-                height: 85px;
-                margin-top: 47px;
                 letter-spacing: 1.2px;
-                margin-left: 49px;
+                margin-left: 70px;
                 height: 93px;
-                margin-top: 48px;
+                margin-top: 63px;
                 .section_button--title{
                   font-size: 78px;
                   font-family: $mainTitleFontFamily;;
@@ -97,14 +98,14 @@ body{
             }            
         }        
         .section_options-catalog{
-            height: 526px;
+            height: 517px;
             .section_options-catalog--title{
+                height:190px;
                 h1{
                   font-size: 64px;
                   font-family: $mainTitleFontFamily;
                   color: $sectionOptionsTitleTextColor;
                   position: relative;
-                  top: -130px;
                   left: -10px;
                   text-transform: uppercase;
                   line-height: 2.015;
@@ -117,29 +118,27 @@ body{
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
-                flex-wrap: nowrap;
+                flex-wrap: wrap;
                 div{
-                    height: 258px;
+                    height: 91px;
                     width: 300px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
                     position: relative;
-                    top: 23px;
                     left: 15px;
                     .section_options-catalog--img-main{
                         border-radius: 50%;
                         border:10px solid white;
                         position: relative;
-                        top: -21px;
                         width: 238px;
                         height: 238px;
                     }
                     .section_options-catalog--img-aside{
-                        position: relative;
-                        top: -306px;
-                        left: 75px;
+                        position: absolute;
+                        left: 143px;
+                        top: 16px;
                     }
                     .section_options-catalog--title{
                         color: $sectionOptionsTitleTextColor;
@@ -149,6 +148,9 @@ body{
                         font-size: 38px;
                         text-align: center;
                         white-space: pre;
+                        position: relative;
+                        top: 40px;
+                        left: -9px;
                     }
                     .section_options-catalog--date{
                         font-size: 24px;
@@ -160,73 +162,11 @@ body{
                         word-spacing: -5px;
                         letter-spacing: 0.5px;
                         position: relative;                    
-                        left: 20px;
+                        left: -11px;
+                        top: 77px;
                     }
                 }
-                .section_options-catalog--clockwork{
-                    .section_options-catalog--img-main{
-                        position: relative;
-                        top:-138px;
-                    }
-                    .section_options-catalog--title{
-                        position: relative;
-                        top: -272px;
-                        left: -8px;
-                    }
-                    .section_options-catalog--date{
-                        position: relative;
-                        top: -234px;
-                        left: -6px;
-                    }
-                }
-                .section_options-catalog--sunny{
-                    .section_options-catalog--img-main{
-                        position: relative;
-                        top:-128px;
-                    }
-                    .section_options-catalog--title{
-                        position: relative;
-                        top: -283px;
-                        left: -8px;
-                    }
-                    .section_options-catalog--date{
-                        position: relative;
-                        top: -246px;
-                        left: -10px;
-                    }
-                }
-                .section_options-catalog--golden-sun{
-                    .section_options-catalog--img-main{
-                        position: relative;
-                        top:-148px;
-                    }
-                    .section_options-catalog--title{
-                        position: relative;
-                        top: -260px;
-                        left: -8px;
-                    }
-                    .section_options-catalog--date{
-                        position: relative;
-                        top: -224px;
-                        left: -6px;
-                    }
-                }
-                .section_options-catalog--resourt{
-                    .section_options-catalog--img-main{
-                       top: -133px;
-                       left: -10px;
-                    }
-                    .section_options-catalog--title{
-                        position: relative;
-                        top: -270px;
-                        left: -13px;
-                    }
-                    .section_options-catalog--date{
-                        position: relative;
-                        top: -234px;
-                        left: -10px;
-                    }
-                }
+        
             }
         }
     }
@@ -237,7 +177,6 @@ body{
                 margin-left: auto;
                 margin-right: auto;
                 position: relative;
-                top: -142px;
                 left: 2px;
             }
             .footer_invitation--title{
@@ -248,23 +187,25 @@ body{
               text-transform: uppercase;
               text-align: center;
               position: relative;
-              top: -124px;
               letter-spacing: 0.3px;
               word-spacing: 11px;
+              padding-top: 18px;
             }
         }
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1190px) {
+    body{   
+        .section_options-catalog{
+            transform: scale(0.8);
+        } 
+    }
+}
+
+@media (max-width: 320px) {
     body{
-        background-image: url(../images/bg-mobile.jpg);
-        main{
-            transform: scale(0.5);
-            .section_options-catalog{
-                display: flex;
-                flex-wrap: wrap;
-            } 
-        }
+        background-image: url(../images/bg-mobile.jpg); 
+        transform: scale(0.5);
     }
 }

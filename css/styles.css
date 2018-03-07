@@ -44,10 +44,13 @@ body {
       background-image: url(../images/png/tree.png);
       background-repeat: no-repeat;
       background-position: center center;
-      height: 360px;
+      height: 227px;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      position: relative;
+      top: 64px;
+      left: -16px; }
       body main .section_button--tree .section_button--border {
         display: flex;
         justify-content: center;
@@ -55,12 +58,10 @@ body {
         box-shadow: 0 0 1.6px 10px #94380b;
         border-radius: 2px;
         background-color: #ffa358;
-        height: 85px;
-        margin-top: 47px;
         letter-spacing: 1.2px;
-        margin-left: 49px;
+        margin-left: 70px;
         height: 93px;
-        margin-top: 48px; }
+        margin-top: 63px; }
         body main .section_button--tree .section_button--border .section_button--title {
           font-size: 78px;
           font-family: "Segoe UI";
@@ -72,45 +73,44 @@ body {
           text-shadow: 0px 0px 0px rgba(3, 20, 21, 0.95);
           padding-bottom: 10px; }
     body main .section_options-catalog {
-      height: 526px; }
-      body main .section_options-catalog .section_options-catalog--title h1 {
-        font-size: 64px;
-        font-family: "Segoe UI";
-        color: white;
-        position: relative;
-        top: -130px;
-        left: -10px;
-        text-transform: uppercase;
-        line-height: 2.015;
-        text-align: center;
-        text-shadow: -4.728px 3.694px 3.9px rgba(3, 11, 22, 0.8); }
+      height: 517px; }
+      body main .section_options-catalog .section_options-catalog--title {
+        height: 190px; }
+        body main .section_options-catalog .section_options-catalog--title h1 {
+          font-size: 64px;
+          font-family: "Segoe UI";
+          color: white;
+          position: relative;
+          left: -10px;
+          text-transform: uppercase;
+          line-height: 2.015;
+          text-align: center;
+          text-shadow: -4.728px 3.694px 3.9px rgba(3, 11, 22, 0.8); }
       body main .section_options-catalog .section_options-catalog--wrapper {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        flex-wrap: nowrap; }
+        flex-wrap: wrap; }
         body main .section_options-catalog .section_options-catalog--wrapper div {
-          height: 258px;
+          height: 91px;
           width: 300px;
           display: flex;
           justify-content: center;
           align-items: center;
           flex-direction: column;
           position: relative;
-          top: 23px;
           left: 15px; }
           body main .section_options-catalog .section_options-catalog--wrapper div .section_options-catalog--img-main {
             border-radius: 50%;
             border: 10px solid white;
             position: relative;
-            top: -21px;
             width: 238px;
             height: 238px; }
           body main .section_options-catalog .section_options-catalog--wrapper div .section_options-catalog--img-aside {
-            position: relative;
-            top: -306px;
-            left: 75px; }
+            position: absolute;
+            left: 143px;
+            top: 16px; }
           body main .section_options-catalog .section_options-catalog--wrapper div .section_options-catalog--title {
             color: white;
             font-family: "Segoe UI";
@@ -118,7 +118,10 @@ body {
             text-transform: uppercase;
             font-size: 38px;
             text-align: center;
-            white-space: pre; }
+            white-space: pre;
+            position: relative;
+            top: 40px;
+            left: -9px; }
           body main .section_options-catalog .section_options-catalog--wrapper div .section_options-catalog--date {
             font-size: 24px;
             font-family: "Segoe UI";
@@ -129,57 +132,13 @@ body {
             word-spacing: -5px;
             letter-spacing: 0.5px;
             position: relative;
-            left: 20px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--clockwork .section_options-catalog--img-main {
-          position: relative;
-          top: -138px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--clockwork .section_options-catalog--title {
-          position: relative;
-          top: -272px;
-          left: -8px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--clockwork .section_options-catalog--date {
-          position: relative;
-          top: -234px;
-          left: -6px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--sunny .section_options-catalog--img-main {
-          position: relative;
-          top: -128px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--sunny .section_options-catalog--title {
-          position: relative;
-          top: -283px;
-          left: -8px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--sunny .section_options-catalog--date {
-          position: relative;
-          top: -246px;
-          left: -10px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--golden-sun .section_options-catalog--img-main {
-          position: relative;
-          top: -148px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--golden-sun .section_options-catalog--title {
-          position: relative;
-          top: -260px;
-          left: -8px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--golden-sun .section_options-catalog--date {
-          position: relative;
-          top: -224px;
-          left: -6px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--resourt .section_options-catalog--img-main {
-          top: -133px;
-          left: -10px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--resourt .section_options-catalog--title {
-          position: relative;
-          top: -270px;
-          left: -13px; }
-        body main .section_options-catalog .section_options-catalog--wrapper .section_options-catalog--resourt .section_options-catalog--date {
-          position: relative;
-          top: -234px;
-          left: -10px; }
+            left: -11px;
+            top: 77px; }
   body footer .footer_invitation .footer_invitation--img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -142px;
     left: 2px; }
   body footer .footer_invitation .footer_invitation--title {
     font-size: 60px;
@@ -189,15 +148,15 @@ body {
     text-transform: uppercase;
     text-align: center;
     position: relative;
-    top: -124px;
     letter-spacing: 0.3px;
-    word-spacing: 11px; }
+    word-spacing: 11px;
+    padding-top: 18px; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1190px) {
+  body .section_options-catalog {
+    transform: scale(0.8); } }
+
+@media (max-width: 320px) {
   body {
-    background-image: url(../images/bg-mobile.jpg); }
-    body main {
-      transform: scale(0.5); }
-      body main .section_options-catalog {
-        display: flex;
-        flex-wrap: wrap; } }
+    background-image: url(../images/bg-mobile.jpg);
+    transform: scale(0.5); } }
